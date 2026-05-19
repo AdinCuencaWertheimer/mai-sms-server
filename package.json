@@ -1,0 +1,15 @@
+{
+  "name": "mai-sms-server",
+  "version": "1.0.0",
+  "description": "MAI Home Twilio SMS webhook server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "twilio": "^4.23.0",
+    "openai": "^4.28.0",
+    "node-fetch": "^2.7.0"
+  }
+}
